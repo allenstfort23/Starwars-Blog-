@@ -1,8 +1,11 @@
 import React from "react";
 
-export const Card = () => (
+export const PeopleCard = () => (
 	<div className="card" style={{ width: "17rem" }}>
-		<img src="..." className="card-img-top" alt="..." />
+		<a href="https://placeholder.com">
+			<img src="https://via.placeholder.com/200" className="card-img-top" alt="..." />
+		</a>
+		<hr className="bg-danger" />
 		<div className="card-body">
 			<h5 className="card-title text-justify">Card title</h5>
 			<p className="card-text text-justify">
