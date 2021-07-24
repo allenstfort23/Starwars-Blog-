@@ -37,6 +37,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 						setStore({ people: peopleName });
 					});
 			},
+			CardsForPeople: () => {},
 
 			changeColor: (index, color) => {
 				//get the store
